@@ -1,0 +1,28 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "Social network for devs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmidor/Social-Network.git"
+  },
+  "author": "Viktoriia Midor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmidor/Social-Network/issues"
+  },
+  "homepage": "https://github.com/vmidor/Social-Network#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
