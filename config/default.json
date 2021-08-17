@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://vmidor:asterisk@cluster0.8iiss.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://vmidor:asterisk@cluster0.8iiss.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
