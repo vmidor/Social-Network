@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://vmidor:asterisk@cluster0.8iiss.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "df49fb5fba7647a817bc",
+  "githubSecret": "8ae3a5c94b4b39e6d5d3457bfcff630653b1b38c"
 }
