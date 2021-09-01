@@ -6,7 +6,6 @@ import Routes from './components/routing/Routes';
 import { LOGOUT } from './actions/types';
 import './App.css';
 
-
 import { Provider } from 'react-redux';
 // Redux
 import store from './store';
@@ -15,12 +14,10 @@ import setAuthToken from './utils/setAuthToken';
 
 const App = () => {
   useEffect(() => {
-    // Check for token in storage
     if (localStorage.token) {
       setAuthToken(localStorage.token);
     }
     store.dispatch(loadUser());
-
 
     window.addEventListener('storage', () => {
       if (!localStorage.token) store.dispatch({ type: LOGOUT });
